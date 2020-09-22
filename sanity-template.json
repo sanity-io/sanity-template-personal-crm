@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "title": "Sanity.io starter template for Netlify",
-  "description": "Personal Relationship Manager",
+  "title": "Personal Relationship Manager",
+  "description": "Keep track of your personal relationships with structured content",
   "previewMedia": {
     "type": "image",
-    "src": "assets/netlify.png",
-    "alt": "Netlify"
+    "src": "assets/studio.png",
+    "alt": "Sanity Studio"
   },
   "technologies": [{
     "id": "netlify",
