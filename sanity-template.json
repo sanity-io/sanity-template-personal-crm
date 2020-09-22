@@ -1,0 +1,35 @@
+{
+  "version": 2,
+  "title": "Sanity.io starter template for Netlify",
+  "description": "Personal Relationship Manager",
+  "previewMedia": {
+    "type": "image",
+    "src": "assets/netlify.png",
+    "alt": "Netlify"
+  },
+  "technologies": [{
+    "id": "netlify",
+    "name": "Netlify",
+    "url": "https://www.netlify.com/"
+  }],
+  "deployment": {
+    "provider": "netlify",
+    "sites": [{
+      "id": "studio",
+      "type": "studio",
+      "title": "Sanity Studio",
+      "description": "The Sanity Studio is where you edit and structure your content.",
+      "dir": "./studio",
+      "previewMedia": {
+        "type": "image",
+        "src": "assets/studio.jpg",
+        "alt": "A preview image of the Sanity Studio."
+      },
+      "buildSettings": {
+        "base": "studio",
+        "dir": "dist",
+        "cmd": "npm run build && cp netlify.toml dist"
+      }
+    }]
+  }
+}

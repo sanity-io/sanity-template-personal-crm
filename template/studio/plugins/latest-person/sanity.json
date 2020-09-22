@@ -1,0 +1,7 @@
+{
+  "parts": [{
+    "name": "part:@sanity/dashboard/widget/latest-person",
+    "implements": "part:@sanity/dashboard/widget",
+    "path": "index.js"
+  }]
+}
