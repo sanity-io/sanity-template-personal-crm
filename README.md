@@ -10,12 +10,22 @@ This is a studio-only starter for a personal CRM ready to be customized to whate
 - Custom dashboard widget for viewing the last added person
 - Deploys on Netlify
 
-If you want to launch this project to try out the studio, go to [sanity.io/create](https://sanity.io/create?template=sanity-io/sanity-template-personal-crm).
+Deployed from [sanity.io/create](https://www.sanity.io/create/?template=sanity-io%2Fsanity-template-personal-crm).
 
-## Use this starter template to make your own starter
+## Quick start
 
-Feel free to hit the [”Use this template”](https://github.com/sanity-io/sanity-template-personal-crm/generate) button to make your own starter that can be deployed through sanity.io/create.
+1. Clone this repository
+2. `sanity install` in the studio folder on local (and `npm i -g @sanity/cli` if you don't have the CLI)
+3. `sanity start` to start the studio
+   - Your studio should be running on [http://localhost:3333](http://localhost:3333)
+4. `sanity build` to build to production locally
 
-Check out our [documentation for building starter templates](https://www.sanity.io/docs/starter-templates).
+## Deploy changes
 
-[Let us know in the #i-made-this channel in our Slack community if you have made one, and in #help if you need help](https://slack.sanity.io).
+Netlify automatically deploys new changes commited to master on GitHub. If you want to change deployment branch, do so in [build & deploy settings on Netlify](https://www.netlify.com/docs/continuous-deployment/#branches-deploys).
+
+## Stuck? Get help
+
+[![Slack Community Button](https://slack.sanity.io/badge.svg)](https://slack.sanity.io/)
+
+Join [Sanity’s developer community](https://slack.sanity.io) or ping us [on twitter](https://twitter.com/sanity_io).
