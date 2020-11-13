@@ -4,7 +4,7 @@
   "description": "Keep track of your personal relationships with structured content",
   "previewMedia": {
     "type": "image",
-    "src": "assets/studio.png",
+    "src": ".sanity-template/assets/studio.png",
     "alt": "Sanity Studio"
   },
   "technologies": [{
@@ -22,7 +22,7 @@
       "dir": "./studio",
       "previewMedia": {
         "type": "image",
-        "src": "assets/studio.png",
+        "src": ".sanity-template/assets/studio.png",
         "alt": "A preview image of the Sanity Studio."
       },
       "buildSettings": {
